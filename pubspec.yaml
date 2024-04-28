@@ -1,0 +1,59 @@
+name: trelltech
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  oauth1: ^2.0.0
+  go_router: ^13.2.0
+  provider: ^6.1.2
+  webview_flutter: ^4.7.0
+  http: ^0.13.6
+  google_fonts: ^4.0.4
+  mockito: ^5.4.4
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: BungeeShade
+      fonts:
+        - asset: assets/fonts/BungeeShade-Regular.ttf
+          weight: 400
+    - family: LexendExa
+      fonts:
+        - asset: assets/fonts/LexendExa-Regular.ttf
+        - asset: assets/fonts/LexendExa-Black.ttf
+          weight: 900
+        - asset: assets/fonts/LexendExa-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/LexendExa-ExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/LexendExa-ExtraLight.ttf
+          weight: 200
+        - asset: assets/fonts/LexendExa-Light.ttf
+          weight: 300
+        - asset: assets/fonts/LexendExa-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/LexendExa-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/LexendExa-Thin.ttf
+          weight: 100
+        - asset: assets/fonts/LexendExa-VariableFont_wght.ttf
+          weight: 400
+
+
+  assets:
+    - assets/images/
+    - assets/fonts/
